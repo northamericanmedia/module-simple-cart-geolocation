@@ -1,0 +1,21 @@
+{
+    "name": "northamericanmedia/module-simplecartgeolocation",
+    "version": "1.0.1",
+    "description": "Simple Cart Geolocation",
+    "type": "magento2-module",
+    "require": {
+        "php": ">=8.1"
+    },
+    "license": [
+        "OSL-3.0"
+    ],
+    "homepage": "https://namedia.net/",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "NAM\\SimpleCartGeolocation\\": ""
+        }
+    }
+}
