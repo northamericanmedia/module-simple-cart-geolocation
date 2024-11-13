@@ -13,7 +13,7 @@ class AdditionalConfigVars implements ConfigProviderInterface
 {
 
     private const XML_PATH_CART_USE_GEOLOCATION = 'checkout/cart/use_geolocation';
-    private const GEOLOCATION_URL = 'geolocationUrl';
+    public const GEOLOCATION_URL = 'geolocationUrl';
 
     /**
      * @param ScopeConfigInterface $scopeConfig
