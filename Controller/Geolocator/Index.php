@@ -22,7 +22,6 @@ use Psr\Log\LoggerInterface;
 class Index extends Action implements HttpPostActionInterface
 {
 
-
     private const CACHE_KEY = 'address_data_by_latitude_longitude_';
     private const CACHE_TAG = 'GEOLOCATION_RESULTS';
     private const GOOGLE_MAPS_URL = 'https://maps.googleapis.com/maps/api/geocode/json';
